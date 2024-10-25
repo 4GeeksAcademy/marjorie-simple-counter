@@ -1,23 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-const Home = () => {
-	const [count, setCount] = useState();
+import Counter from "./counter.jsx";
 
-    useEffect(() => {
-        
-        const interval = setInterval(() => {
-            setCount(count + 1);
-        }, 1000);
 
-    
-        return () => clearInterval(interval);
-    }, [count]);
 
-    return (
-        <div style={{background:"black", color:"white", padding:"50px", display:"center"}}>  
-		  <h1>{count}</h1>
-        </div>
-    );
+const Home = ({ one, two, three, four, five }) => {
+	return (
+		<Counter one={one} two={two} three={three} four={four} five={five} />
+	);
 };
 
 export default Home;
