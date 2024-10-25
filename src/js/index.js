@@ -21,9 +21,10 @@ setInterval(function () {
     const three = Math.floor(number / 100) % 10;
     const four = Math.floor(number / 1000) % 10;
     const five = Math.floor(number / 10000) % 10;
+    const six = Math.floor(number / 100000) % 10;
 
     ReactDOM.createRoot(document.getElementById('app')).render(
-        <Home one={one} two={two} three={three} four={four} five={five} />
+        <Home one={one} two={two} three={three} four={four} five={five} six={six}/>
     );
 }, 1000);
 
