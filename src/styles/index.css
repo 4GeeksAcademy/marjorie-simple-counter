@@ -1,26 +1,13 @@
-
-body {
-    height: 100dvh;
-    display: grid;
-    background-color: white;
-}
-
-
-
-.counter-tile .counter-digit {
-    font-size: 2.5em;
-    color: #fff;
-}
 i {
     font-size: 3em;
     color: white;
 }
 
 span {
-    padding: 10px 15px;
+    padding: 15px 15px;
 }
 
-.counter-container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +16,7 @@ span {
     border-radius: 20px;
 }
 
-.counter-tile {
+.tile {
     display: flex;
     justify-content: center;
     align-items: center;

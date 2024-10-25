@@ -3,8 +3,8 @@ import React from "react";
 const Counter = ({ one, two, three, four, five, six }) => {
   return (
     <>
-      <div className="counter-container">
-        <div className="counter-tile clock-icon">
+      <div className="container">
+        <div className="tile clock-icon">
           <i className="fas fa-clock"></i>
         </div>
         <div className="d-flex flex-row text-white fs-3">
